@@ -23,6 +23,31 @@ function Projects() {
             </div>  
             <img src="/hrfi.png" className={classes.image}/>
           </div>
+
+          <div className={classes.commentSection}>
+                <h2 className={classes.h2}>
+                    Comment Section
+                </h2>
+                <div className={classes.comment}>
+                    <form>
+                        <h3 className={classes.h4}>
+                            Comment
+                        </h3>
+                        <textarea className={classes.commentInput}>
+
+                        </textarea>
+                        <input type="submit">
+                        </input>
+                    </form>
+
+                </div>
+                <br></br>
+                <div className={classes.comment}>
+                    <p>
+                        a comment
+                    </p>
+                </div>
+              </div>
         </div>
       </div>
         

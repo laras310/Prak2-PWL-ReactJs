@@ -4,7 +4,7 @@ const useStyles= createUseStyles({
      container:{
         backgroundColor: "#E9D5CA",
         color:"#363062",
-        height: "200vh",
+        height: "auto",
     },
     box:{
         height:"50%",
@@ -34,9 +34,9 @@ const useStyles= createUseStyles({
         fontSize:"250%",
     },
     h4:{
-        fontSize:"200%",
+        fontSize:"150%",
         fontFamily:"'Lato', sans-serif",
-        // color:"#827397",
+        color:"#827397",
     },
     p:{
         fontSize:"20px",
@@ -76,7 +76,33 @@ const useStyles= createUseStyles({
     },
     project:{
         margin:"1%",
-    }
+    },
+    commentSection:{
+        display: "flex",
+        flexDirection: "column",
+        width: "100%",
+        alignItems: "center",
+        backgroundColor: "#827397",
+    },
+    commentSubmittion:{
+        width: "80%",
+        backgroundColor: "#E9D5CA",
+        borderRadius: "30px",
+        padding: "15px",
+        margin: "20px",
+        // border: "5px solid #6D8B74",
+    },
+    commentInput:{
+        width: "100%",
+    },
+    comment:{
+        width: "80%",
+        backgroundColor: "#E9D5CA",
+        borderRadius: "30px",
+        padding: "10px",
+        margin: "20px",
+        // border: "5px solid #6D8B74",
+    },
 })
 
 export default useStyles;
