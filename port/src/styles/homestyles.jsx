@@ -4,7 +4,8 @@ const useStyles= createUseStyles({
      container:{
         backgroundColor: "#E9D5CA",
         color:"#363062",
-        height: "100vh",
+        height: "auto",
+        paddingBottom:"4.5%",
         // padding:"1%",
     },
     image:{
