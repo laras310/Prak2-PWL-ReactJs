@@ -14,7 +14,7 @@ function Home() {
             Problem solver, calm, and collected person with perfectionist attitude. I enjoy crochet, TV series, and generally every kind of music.
             My main focus these days is learning data analytics, machine learning, and finishing college. </p>
           </div>
-          <img src="/knitting-pana.png" className={classes.image}/>
+          <img src="/Knitting.png" className={classes.image}/>
           <div className={classes.skill}>
             <h4 className={classes.h4}>My Skill</h4>
             <p className={classes.p}>This is what i learned so far in college:</p>
